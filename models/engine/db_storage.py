@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-""" Database engine """
-
+""" 
+Database engine 
+"""
 import os
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker, scoped_session
